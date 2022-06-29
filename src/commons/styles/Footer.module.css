@@ -1,0 +1,50 @@
+.footer {
+  background: var(--putihPlate);
+}
+
+.logo-footer {
+  margin-bottom: 10px;
+}
+
+.text-footer-about {
+  font-family: Mulish;
+  font-style: normal;
+  font-size: 19px;
+  color: var(--black);
+}
+
+.text-footer-title {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 60px;
+  color: var(--black);
+}
+
+.link-footer {
+  text-decoration: none;
+  color: var(--linkFooter);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.link-footer:hover {
+  color: var(--oren);
+}
+
+.icon-footer {
+  color: var(--black);
+  width: 30px;
+  height: 30px;
+  margin: 10px 20px;
+}
+
+.line-footer {
+  width: 90%;
+  height: 3px;
+  background-color: var(--linkFooter);
+}
