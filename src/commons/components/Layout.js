@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Head from "next/head";
 
 function Layout({ children, title }) {
   return (
-    <Fragment>
+    <>
       <Head>
         <title>{title}</title>
         <meta
@@ -17,7 +17,7 @@ function Layout({ children, title }) {
         <link rel='icon' href='/logo.png' />
       </Head>
       {children}
-    </Fragment>
+    </>
   );
 }
 

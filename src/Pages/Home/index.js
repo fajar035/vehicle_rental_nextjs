@@ -14,6 +14,7 @@ function Home() {
       <Header />
 
       <section className={styles.jumbroton}>jumbroton</section>
+
       <Footer />
     </Layout>
   );

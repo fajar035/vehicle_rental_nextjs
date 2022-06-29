@@ -35,9 +35,9 @@ function Header() {
       </ul>
       <div className={styles["icon-bar"]} onClick={handleClickBar}>
         {!isActivebar ? (
-          <FontAwesomeIcon icon={faBars} />
+          <FontAwesomeIcon icon={faBars} width={40} />
         ) : (
-          <FontAwesomeIcon icon={faBarsStaggered} />
+          <FontAwesomeIcon icon={faBarsStaggered} width={40} />
         )}
       </div>
     </nav>
